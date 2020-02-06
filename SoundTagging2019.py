@@ -386,7 +386,7 @@ class Classifier(nn.Module):
         return x
 # Classifier(num_classes=num_classes)
 
-# Define the loss and mix the data
+# Define the loss and mix the data as the mixup
 
 def mixup_data(x, y, alpha=1.0, use_cuda=True):
 
